@@ -43,7 +43,7 @@ import java.util.Arrays;
 /**
  * Helper class for displaying track selection dialogs.
  */
-/* package */ final class TrackSelectionHelper implements View.OnClickListener,
+/* package */ final public class TrackSelectionHelper implements View.OnClickListener,
     DialogInterface.OnClickListener {
 
   private static final TrackSelection.Factory FIXED_FACTORY = new FixedTrackSelection.Factory();

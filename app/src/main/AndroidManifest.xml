@@ -76,6 +76,12 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".example.ExoPlayerActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+            android:label="@string/application_name"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.Black" />
     </application>
 
 </manifest>
