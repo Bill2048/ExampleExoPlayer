@@ -342,6 +342,7 @@ public class SampleChooserActivity extends Activity {
         view = LayoutInflater.from(context).inflate(android.R.layout.simple_expandable_list_item_1,
             parent, false);
       }
+      view.setBackgroundColor(0x33999999);
       ((TextView) view).setText(getGroup(groupPosition).title);
       return view;
     }
